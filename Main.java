@@ -10,5 +10,12 @@ public class Main{
         animal.mostrarEspecie();
         Pez pez = new Pez("Salmon", "Dulce 'Rio'");
         pez.mostrarEspecie();
+        System.out.println();
+
+        super.tipo = "Cattleya";
     }
 }
+ // ERROR: non-static variable super cannot be referenced from a static context
+        // super no puede usarse en Main porque:
+        // 1. main es un método estático
+        // 2. Main no hereda de Planta
