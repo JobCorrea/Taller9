@@ -4,5 +4,11 @@ public class Main{
         persona.mostrarDetalles();
         Empleado empleado = new Empleado("Cristiano", 40, "YouTube");
         empleado.mostrarDetalles();
+        System.out.println();
+
+        Animal animal = new Animal("Moncholo");
+        animal.mostrarEspecie();
+        Pez pez = new Pez("Salmon", "Dulce 'Rio'");
+        pez.mostrarEspecie();
     }
 }
